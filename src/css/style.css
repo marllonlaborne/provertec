@@ -1,7 +1,10 @@
+@import 'servicos/servicos.css';
+
 :root {
   /* Cores */
   --primary: #005B96;
   --soft-blue: #3969A1;
+  --primary-hover: #194577;
   --white: #fff;
   --text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.6);
   --box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.4);
