@@ -44,7 +44,7 @@
   margin-bottom: 20px;
 }
 
-.carousel {
+.carousel .carousel-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,9 +64,11 @@
   max-width: 340px;
 }
 
-.carousel img:nth-child(n+3),
-.carousel p:nth-child(n+4),
-.carousel h2:nth-child(n+4) {
+.carousel-item-visible {
+  display: block;
+}
+
+.carousel .carousel-item-hidden {
   display: none;
 }
 
