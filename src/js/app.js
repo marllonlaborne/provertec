@@ -17,13 +17,17 @@ const changeSlidesClasses = (currentSlideIndex) => {
 }
 
 prevButton.addEventListener("click", () => {
-  const correctSlideIndex = currentSlideIndex === 0 ? (currentSlideIndex = lastSlideIndex) : --currentSlideIndex
+  const correctSlideIndex = currentSlideIndex === 0 
+    ? (currentSlideIndex = lastSlideIndex) 
+    : --currentSlideIndex
 
   changeSlidesClasses(correctSlideIndex)
 })
 
 nextButton.addEventListener("click", () => {
-  const correctSlideIndex = currentSlideIndex === lastSlideIndex ? (currentSlideIndex = 0) : ++currentSlideIndex
+  const correctSlideIndex = currentSlideIndex === lastSlideIndex
+    ? (currentSlideIndex = 0) 
+    : ++currentSlideIndex
 
   changeSlidesClasses(correctSlideIndex)
 })
