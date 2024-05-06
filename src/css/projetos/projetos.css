@@ -82,9 +82,17 @@ img {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.projects-preview {
+  height: 530px;
+}
+
 .projects-preview ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+}
+
+.projects-preview img {
+  margin-top: 50px;
+  height: 430px;
 }
