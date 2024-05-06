@@ -58,7 +58,8 @@ img {
 
 .projects-info h2 {
   font-family: var(--poppins);
-  font-weight: 500;
+  font-weight: 600;
+  margin-bottom: 16px;
   color: var(--white);
   text-shadow: var(--text-shadow);
 }
@@ -68,13 +69,16 @@ img {
   flex-direction: column;
   margin-top: 40px;
   gap: 20px;
-  font-weight: 400;
+  font-weight: 500;
   color: var(--white);
   text-shadow: var(--text-shadow);
 }
 
 .projects-desc li {
-  padding: 15px 40px;
+  padding: 15px 0 15px 40px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
