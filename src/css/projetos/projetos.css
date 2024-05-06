@@ -18,10 +18,10 @@ img {
 
 .projects h1 {
   text-align: start;
-  margin-left: 530px;
+  margin: 0 0 16px 630px;
   width: 100%;
   font-family: var(--poppins);
-  font-weight: 600;
+  font-weight: 700;
   color: var(--white);
   text-shadow: var(--text-shadow);
 }
@@ -39,7 +39,14 @@ img {
 
 [data-js="prev-button"],
 [data-js="next-button"] {
+  padding: 5px 7px;
+  border-radius: 3px;
+}
+
+[data-js="prev-button"]:hover,
+[data-js="next-button"]:hover {
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .projects-info {
@@ -51,7 +58,8 @@ img {
 
 .projects-info h2 {
   font-family: var(--poppins);
-  font-weight: 500;
+  font-weight: 600;
+  margin-bottom: 16px;
   color: var(--white);
   text-shadow: var(--text-shadow);
 }
@@ -61,19 +69,30 @@ img {
   flex-direction: column;
   margin-top: 40px;
   gap: 20px;
-  font-weight: 400;
+  font-weight: 500;
   color: var(--white);
   text-shadow: var(--text-shadow);
 }
 
 .projects-desc li {
-  padding: 15px 40px;
+  padding: 15px 0 15px 40px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.projects-preview {
+  height: 530px;
 }
 
 .projects-preview ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+}
+
+.projects-preview img {
+  margin-top: 50px;
+  height: 430px;
 }
