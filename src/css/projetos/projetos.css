@@ -18,10 +18,10 @@ img {
 
 .projects h1 {
   text-align: start;
-  margin-left: 530px;
+  margin: 0 0 16px 630px;
   width: 100%;
   font-family: var(--poppins);
-  font-weight: 600;
+  font-weight: 700;
   color: var(--white);
   text-shadow: var(--text-shadow);
 }
