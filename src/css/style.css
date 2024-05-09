@@ -3,6 +3,7 @@
 
 /* Global */
 @import './global/header.css';
+@import './global/global.css';
 
 :root {
   /* Cores */
