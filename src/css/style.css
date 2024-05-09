@@ -1,6 +1,9 @@
 @import 'servicos/servicos.css';
 @import 'projetos/projetos.css';
 
+/* Global */
+@import './global/header.css';
+
 :root {
   /* Cores */
   --primary: #005B96;
