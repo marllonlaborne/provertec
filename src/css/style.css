@@ -19,7 +19,6 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  height: 600px;
   color: var(--white);
 }
 
@@ -27,20 +26,20 @@
   font-family: var(--poppins);
   font-size: 2.8rem;
   line-height: 56px;
-  margin: 200px 0 0 230px;
+  margin-top: 200px;
   text-shadow: var(--text-shadow);
 }
 
 .home p {
   font-size: 1.5rem;
   line-height: 32px;
-  margin: 40px 0 0 230px;
+  margin-top: 40px;
   text-shadow: var(--text-shadow);
 }
 
 .home a {
   font-size: 1.2rem;
-  margin: 72px 0 0 230px;
+  margin-top: 72px;
   padding: 17px 35px;
   border-radius: 10px;
   background-color: var(--primary);
