@@ -5,39 +5,9 @@
 @import './global/header.css';
 @import './global/global.css';
 
-:root {
-  /* Cores */
-  --primary: #005B96;
-  --soft-blue: #3969A1;
-  --primary-hover: #194577;
-  --white: #fff;
-  --text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
-  --box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.4);
-
-  /* Tipografia */
-  --montserrat: 'Montserrat', sans-serif;
-  --poppins: 'Poppins', sans-serif;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: var(--montserrat)
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul,
-li {
-  list-style: none;
-}
+/* Utilities */
+@import './utilities/root.css';
+@import './utilities/components.css';
 
 .home-bg {
   height: 841px;
