@@ -1,83 +1,13 @@
 @import 'servicos/servicos.css';
 @import 'projetos/projetos.css';
 
-:root {
-  /* Cores */
-  --primary: #005B96;
-  --soft-blue: #3969A1;
-  --primary-hover: #194577;
-  --white: #fff;
-  --text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
-  --box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.4);
+/* Global */
+@import './global/header.css';
+@import './global/global.css';
 
-  /* Tipografia */
-  --montserrat: 'Montserrat', sans-serif;
-  --poppins: 'Poppins', sans-serif;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: var(--montserrat)
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul,
-li {
-  list-style: none;
-}
-
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 112px;
-}
-
-.header .header-logo a img {
-  width: 280px;
-  margin-left: 20px;
-}
-
-.header-menu {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  gap: 50px;
-  color: var(--primary);
-  font-size: 1rem;
-  font-weight: 500;
-}
-
-.header-sociais {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--poppins);
-}
-
-.header-sociais ul {
-  display: flex;
-  align-items: center;
-}
-
-.header-sociais,
-.header-sociais li {
-  margin-right: 20px;
-}
-
-.icones-sociais {
-  filter: invert(15%) sepia(91%) saturate(3265%) hue-rotate(189deg) brightness(102%) contrast(101%);
-}
+/* Utilities */
+@import './utilities/root.css';
+@import './utilities/components.css';
 
 .home-bg {
   height: 841px;
@@ -89,7 +19,6 @@ li {
   display: flex;
   flex-direction: column;
   align-items: start;
-  height: 600px;
   color: var(--white);
 }
 
@@ -97,20 +26,20 @@ li {
   font-family: var(--poppins);
   font-size: 2.8rem;
   line-height: 56px;
-  margin: 200px 0 0 230px;
+  margin-top: 200px;
   text-shadow: var(--text-shadow);
 }
 
 .home p {
   font-size: 1.5rem;
   line-height: 32px;
-  margin: 40px 0 0 230px;
+  margin-top: 40px;
   text-shadow: var(--text-shadow);
 }
 
 .home a {
   font-size: 1.2rem;
-  margin: 72px 0 0 230px;
+  margin-top: 72px;
   padding: 17px 35px;
   border-radius: 10px;
   background-color: var(--primary);
