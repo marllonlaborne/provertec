@@ -1,6 +1,15 @@
 .container {
-  height: 841px;
+  max-height: 841px;
   max-width: 1360px;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+.button {
+  font-size: 1.2rem;
+  margin-top: 72px;
+  padding: 17px 35px;
+  border-radius: 10px;
+  background-color: var(--primary);
+  box-shadow: var(--box-shadow);
 }

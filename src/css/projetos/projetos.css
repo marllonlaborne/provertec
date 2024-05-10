@@ -4,13 +4,12 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 700px;
   background-color: var(--primary);
 }
 
 .projects h1 {
   text-align: start;
-  margin: 0 0 16px 630px;
+  margin: 240px 0 16px 620px;
   width: 100%;
   font-family: var(--poppins);
   font-weight: 700;
@@ -23,6 +22,28 @@
   justify-content: space-between;
   align-items: center;
   gap: 120px;
+}
+
+.projects-home {
+  width: 1360px;
+  height: 400px;
+  margin-bottom: 50px;
+  color: var(--white);
+}
+
+.projects-home h1 {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  line-height: 58px;
+  text-shadow: var(--text-shadow);
+  margin: 120px 0 0 0;
+}
+
+.projects-home p {
+  margin: 40px 0 72px 0;
+  font-size: 1.2rem;
+  line-height: 30px;
+  text-shadow: var(--text-shadow);
 }
 
 [data-js="prev-button"] {

@@ -5,6 +5,7 @@
 
 .servicos-container {
   display: flex;
+  height: 841px;
 }
 
 .servicos-desc,
@@ -25,7 +26,6 @@
 }
 
 .servicos-desc p {
-  display: flex;
   font-size: 1.2rem;
   line-height: 30px;
   text-shadow: var(--text-shadow);
