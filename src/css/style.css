@@ -36,12 +36,3 @@
   margin-top: 40px;
   text-shadow: var(--text-shadow);
 }
-
-.home a {
-  font-size: 1.2rem;
-  margin-top: 72px;
-  padding: 17px 35px;
-  border-radius: 10px;
-  background-color: var(--primary);
-  box-shadow: var(--box-shadow);
-}
