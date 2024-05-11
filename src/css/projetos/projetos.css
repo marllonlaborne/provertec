@@ -4,12 +4,13 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: var(--primary);
+  background: top no-repeat url('../../../assets/images/background/projects-meeting.jpg') var(--primary);
+  backdrop-filter: blur(5px);
 }
 
 .projects h1 {
   text-align: start;
-  margin: 240px 0 16px 620px;
+  margin: -30px 0 24px 620px;
   width: 100%;
   font-family: var(--poppins);
   font-weight: 700;
@@ -22,6 +23,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 120px;
+  background-color: var(--primary);
 }
 
 .projects-home {
@@ -44,6 +46,19 @@
   font-size: 1.2rem;
   line-height: 30px;
   text-shadow: var(--text-shadow);
+}
+
+.spacer {
+  aspect-ratio: 420/184;
+  width: 100%;
+  margin: 50px 0 -500px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer {
+  background-image: url('../../../assets/images/projetos/wave-haikei.svg');
 }
 
 [data-js="prev-button"] {
