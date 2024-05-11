@@ -1,0 +1,51 @@
+.partners-bg {
+  background-color: var(--primary);
+  position: relative;
+}
+
+.partners-prover-logo {
+  width: 600px;
+  margin-top: 120px;
+}
+
+.partners,
+.partners-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--white);
+}
+
+.partners-info {
+  margin-bottom: 80px;
+}
+
+.partners h1 {
+  font-size: 2.4rem;
+  line-height: 58px;
+  margin: 60px 0 40px;
+  text-shadow: var(--text-shadowshadow);
+}
+
+.partners p {
+  font-size: 1.2rem;
+  line-height: 30px;
+  margin-bottom: 64px;
+  text-align: center;
+  text-shadow: var(--text-shadowshadow);
+}
+
+.partners-carousel img {
+  width: 200px;
+}
+
+.partners-carousel {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: -150px;
+  gap: 45px; 
+  width: 100%;
+  background-color: var(--white);
+}
