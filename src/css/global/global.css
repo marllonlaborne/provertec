@@ -6,6 +6,7 @@
 
 body {
   font-family: var(--montserrat);
+  overflow-x: hidden;
 }
 
 img {
