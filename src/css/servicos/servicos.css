@@ -1,5 +1,5 @@
 .servicos {
-  background: linear-gradient(180deg, rgba(255,0,0,0) 30%, rgba(0,0,0,1) 100%), url('../../../assets/images/background/services-background.jpg');
+  background-color: var(--primary); 
   color: var(--white);
 }
 
@@ -15,13 +15,14 @@
 }
 
 .servicos-carousel {
+  position: relative;
   margin-left: 120px;
 }
 
 .servicos-desc h1 {
   font-size: 2.8rem;
   line-height: 64px;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
   text-shadow: var(--text-shadow);
 }
 
@@ -29,7 +30,7 @@
   font-size: 1.2rem;
   line-height: 30px;
   text-shadow: var(--text-shadow);
-  margin-bottom: 20px;
+  margin-bottom: 32px;
 }
 
 .carousel .carousel-item {
@@ -44,7 +45,7 @@
   text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
   text-align: center;
   max-width: 600px;
-  margin-top: 48px;
+  margin-top: 32px;
 }
 
 .servicos-carousel img {
@@ -60,7 +61,7 @@
 }
 
 .carousel img {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--white);
   border-radius: 10px;
   padding: 20px;
 }
@@ -68,11 +69,14 @@
 .carousel h2 {
   font-size: 2rem;
   line-height: 32px;
-  margin: 25px 0 5px 0;
+  margin: 40px 0 5px 0;
   text-shadow: var(--text-shadow);
 }
 
 .setas-nav {
+  position: absolute;
+  top: 10%;
+  transform: translateY(-50%);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -80,8 +84,7 @@
 }
 
 .setas-nav img {
-  background-color: var(--primary);
-  box-shadow: var(--box-shadow);
+  background-color: #ff7f50;
   padding: 5px 12px;
   border-radius: 4px;
   cursor: pointer;
@@ -90,6 +93,11 @@
 
 .setas-nav img:first-child {
   rotate: 180deg;
+}
+
+.setas-nav img:nth-child(2) {
+  position: absolute;
+  right: -560px;
 }
 
 .setas-nav img:hover {
