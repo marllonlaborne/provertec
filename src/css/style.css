@@ -11,31 +11,3 @@
 /* Utilities */
 @import './utilities/root.css';
 @import './utilities/components.css';
-
-.home-bg {
-  height: 841px;
-  background: linear-gradient(180deg, rgba(255,0,0,0) 70%, rgba(0,0,0,1) 100%),
-  url('../../assets/images/background/meeting-background.jpg');
-}
-
-.home {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  color: var(--white);
-}
-
-.home h1 {
-  font-family: var(--poppins);
-  font-size: 2.8rem;
-  line-height: 56px;
-  margin-top: 200px;
-  text-shadow: var(--text-shadow);
-}
-
-.home p {
-  font-size: 1.5rem;
-  line-height: 32px;
-  margin-top: 40px;
-  text-shadow: var(--text-shadow);
-}
