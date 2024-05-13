@@ -1,6 +1,6 @@
 @import 'servicos/servicos.css';
 @import 'projetos/projetos.css';
-@import '/src/css/parceiros/parceiros.css';
+@import 'parceiros/parceiros.css';
 @import 'parceiros/contato.css';
 
 /* Global */
