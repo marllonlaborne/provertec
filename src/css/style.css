@@ -3,6 +3,7 @@
 @import 'projetos/projetos.css';
 @import 'parceiros/parceiros.css';
 @import 'parceiros/contato.css';
+@import 'contato/contato.css';
 
 /* Global */
 @import './global/header.css';
