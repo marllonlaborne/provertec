@@ -1,6 +1,7 @@
 .contact-bg {
   background-color: #ff7f50;
   color: var(--white);
+  margin-top: 150px;
 }
 
 .contact {
