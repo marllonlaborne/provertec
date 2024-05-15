@@ -42,6 +42,11 @@
   justify-content: center;
   width: 300px;
   height: 400px;
+  margin-right: 30px;
+}
+
+.location-map img {
+  border-radius: 4px;
 }
 
 .location-info {
@@ -56,6 +61,14 @@
   gap: 15px;
 }
 
+.information {
+  margin-bottom: 20px;
+}
+
 .information .icons {
   background-color: white;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  padding: 13px;
 }
