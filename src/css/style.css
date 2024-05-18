@@ -14,3 +14,6 @@
 @import 'parceiros/contato.css';
 @import 'contato/contato.css';
 @import 'footer/footer.css';
+
+/* Pages */
+@import './policy-privacy/policy-privacy.css';
