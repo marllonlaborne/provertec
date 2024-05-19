@@ -25,6 +25,7 @@
   align-items: center;
   gap: 120px;
   background-color: var(--primary);
+  margin-bottom: 120px;
 }
 
 .projects-home {
