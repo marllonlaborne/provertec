@@ -1,10 +1,8 @@
-/* Global */
-@import './global/header.css';
-@import './global/global.css';
-
 /* Utilities */
 @import './utilities/root.css';
 @import './utilities/components.css';
+@import './utilities/typography.css';
+@import './utilities/colors.css';
 
 /* Sections */
 @import 'home/home.css';
