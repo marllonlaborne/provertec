@@ -12,6 +12,11 @@
   color: var(--secondary-color);
 }
 
+.secondary-color-hover:hover {
+  color: var(--secondary-color);
+  transition: .2s;
+}
+
 .white-color {
   color: var(--color-0);
 }
