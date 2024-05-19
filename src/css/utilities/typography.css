@@ -10,6 +10,10 @@
   font: 600 2rem/1.5 'Poppins', sans-serif;
 }
 
+.font-1-ml {
+  font: 600 1.8rem/1.5 'Poppins', sans-serif;
+}
+
 .font-2-s {
   font: 400 1.2rem/1.5 'Montserrat', sans-serif;
 }

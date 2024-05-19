@@ -16,21 +16,11 @@
   height: 360px;
   width: 600px;
   padding: 40px;
-  background-color: var(--primary);
-  color: var(--white);
   box-shadow: var(--box-shadow);
   text-shadow: var(--text-shadow);
   border-radius: 15px;
 }
 
-.contact-meeting h1 {
-  font-size: 2rem;
-  line-height: 50px;
-  margin-bottom: 30px;
-}
-
 .contact-meeting p {
-  font-size: 1.2rem;
-  line-height: 30px;
-  margin-bottom: 40px;
+  margin: 30px 0 40px 0;
 }

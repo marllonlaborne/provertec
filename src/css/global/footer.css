@@ -1,12 +1,10 @@
 .footer-bg {
-  background-color: var(--primary);
   border-top: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer {
   display: grid;
   grid-template-columns: 3fr 4fr 4fr;
-  color: var(--white);
   gap: 60px;
   padding: 60px 0;
 }
@@ -15,22 +13,14 @@
   width: 300px;
 }
 
-.footer li a:hover {
-  color: #ff7f50;
-}
-
+.footer-nav h3,
 .footer-contato h3 {
-  font-size: 1.8rem;
   margin-bottom: 32px;
 }
 
-.footer-contato ul {
-  font-size: 1.2rem;
-  line-height: 32px;
-}
-
+.footer-nav li,
 .footer-contato li {
-  margin: 12px 0;
+  margin-bottom: 12px;
 }
 
 .footer-contato li:nth-child(2n)::after {
@@ -55,17 +45,6 @@
 .footer-sociais img:nth-child(2) {
   width: 50px;
   height: 50px;
-}
-
-.footer-nav h3 {
-  font-size: 1.8rem;
-  margin-bottom: 32px;
-}
-
-.footer-nav li {
-  margin-bottom: 12px;
-  font-size: 1.2rem;
-  line-height: 32px;
 }
 
 .footer-rights {

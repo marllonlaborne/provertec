@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  background: top no-repeat url('../../../assets/images/background/projects-meeting.jpg') var(--primary);
+  background: top no-repeat url('../../../assets/images/background/projects-meeting.jpg') var(--primary-color);
 }
 
 .projects h1 {
@@ -39,8 +39,13 @@
   text-shadow: var(--text-shadow);
 }
 
+.projects-home a {
+  display: block;
+  width: max-content;
+}
+
 .spacer {
-  aspect-ratio: 420/184;
+  aspect-ratio: 440/184;
   width: 100%;
   margin: 50px 0 -500px 0;
   background-repeat: no-repeat;
@@ -88,16 +93,19 @@
   text-shadow: var(--text-shadow);
 }
 
+.projects-desc .icons {
+  padding: 11px;
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+}
+
 .projects-desc li {
-  padding: 15px 0 15px 40px;
+  padding: 15px 0 15px 15px;
   display: flex;
   align-items: center;
   gap: 25px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.projects-preview {
-  height: 530px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .projects-preview ul {
