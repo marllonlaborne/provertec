@@ -1,0 +1,23 @@
+.font-1-xl {
+  font: 700 2.6rem/1.5 'Poppins', sans-serif;
+}
+
+.font-1-l {
+  font: 700 2.3rem/1.5 'Poppins', sans-serif;
+}
+
+.font-1-m {
+  font: 600 2rem/1.5 'Poppins', sans-serif;
+}
+
+.font-2-s {
+  font: 400 1.2rem/1.5 'Montserrat', sans-serif;
+}
+
+.font-2-xs {
+  font: 400 1.1rem/1.5 'Montserrat', sans-serif;
+}
+
+.font-2-xs-b {
+  font: 500 1rem/1.5 'Montserrat', sans-serif;
+}
