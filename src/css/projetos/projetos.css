@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  background: top no-repeat url('../../../assets/images/background/projects-meeting.jpg') var(--primary);
+  background: top no-repeat url('../../../assets/images/background/projects-meeting.jpg') var(--primary-color);
 }
 
 .projects h1 {
