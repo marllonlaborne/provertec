@@ -39,6 +39,11 @@
   text-shadow: var(--text-shadow);
 }
 
+.projects-home a {
+  display: block;
+  width: max-content;
+}
+
 .spacer {
   aspect-ratio: 440/184;
   width: 100%;
