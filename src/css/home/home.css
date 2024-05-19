@@ -7,20 +7,14 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  color: var(--white);
 }
 
 .home h1 {
-  font-family: var(--poppins);
-  font-size: 2.8rem;
-  line-height: 56px;
   margin-top: 200px;
   text-shadow: var(--text-shadow);
 }
 
 .home p {
-  font-size: 1.5rem;
-  line-height: 32px;
   margin-top: 40px;
   text-shadow: var(--text-shadow);
 }
