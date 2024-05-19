@@ -13,7 +13,11 @@
 @import 'parceiros/parceiros.css';
 @import 'parceiros/contato.css';
 @import 'contato/contato.css';
-@import 'footer/footer.css';
+
+/* Global */
+@import './global/header.css';
+@import './global/global.css';
+@import './global/footer.css';
 
 /* Pages */
 @import './policy-privacy/policy-privacy.css';
