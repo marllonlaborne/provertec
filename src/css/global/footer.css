@@ -1,5 +1,6 @@
 .footer-bg {
   background-color: var(--primary);
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer {
