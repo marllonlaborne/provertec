@@ -18,3 +18,7 @@
   margin-top: 40px;
   text-shadow: var(--text-shadow);
 }
+
+.home a {
+  margin-top: 100px;
+}
