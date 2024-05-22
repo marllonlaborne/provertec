@@ -1,5 +1,5 @@
 export default class Slides {
-  constructor(slides, prevButton, nextButton) {
+  constructor(slides, prevButton, nextButton, projectPreview = null, projectInfo = null) {
     this.slides = document.querySelectorAll(slides)
     this.prevButton = document.querySelector(prevButton)
     this.nextButton = document.querySelector(nextButton)
