@@ -118,3 +118,11 @@
   margin-top: 50px;
   height: 430px;
 }
+
+.carousel-item-visible {
+  display: block;
+}
+
+.carousel-item-hidden {
+  display: none;
+}
