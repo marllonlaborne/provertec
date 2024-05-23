@@ -1,0 +1,21 @@
+/* Utilities */
+@import './utilities/root.css';
+@import './utilities/components.css';
+@import './utilities/typography.css';
+@import './utilities/colors.css';
+
+/* Sections */
+@import './sections/home/home.css';
+@import './sections/servicos/servicos.css';
+@import './sections/projetos/projetos.css';
+@import './sections/parceiros/parceiros.css';
+@import './sections/parceiros/contato.css';
+@import './sections/contato/contato.css';
+
+/* Global */
+@import './global/header.css';
+@import './global/global.css';
+@import './global/footer.css';
+
+/* Pages */
+@import './sections/policy-privacy/policy-privacy.css';
