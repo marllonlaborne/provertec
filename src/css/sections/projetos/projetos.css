@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  background: top no-repeat url('../../../assets/images/background/projects-meeting.jpg') var(--primary-color);
+  background: top no-repeat url('../../../../assets/images/background/projects-meeting.jpg') var(--primary-color);
 }
 
 .projects h1 {
@@ -54,7 +54,7 @@
 }
 
 .layer {
-  background-image: url('../../../assets/images/projetos/wave-haikei.svg');
+  background-image: url('../../../../assets/images/projetos/wave-haikei.svg');
 }
 
 [data-js="prev-button"] {
