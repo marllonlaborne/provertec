@@ -1,6 +1,5 @@
 .partners-bg {
   background-color: var(--primary);
-  position: relative;
 }
 
 .partners-prover-logo {
@@ -35,12 +34,8 @@
 }
 
 .partners-carousel {
-  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  bottom: -150px;
-  gap: 45px; 
-  width: 100%;
-  background-color: var(--white);
+  gap: 50px; 
 }
