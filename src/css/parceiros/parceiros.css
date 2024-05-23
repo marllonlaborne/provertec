@@ -33,6 +33,11 @@
   width: 200px;
 }
 
+.partners-carousel-bg {
+  width: 100%;
+  background-color: var(--white);
+}
+
 .partners-carousel {
   display: flex;
   align-items: center;
