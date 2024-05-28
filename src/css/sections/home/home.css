@@ -15,10 +15,18 @@
 }
 
 .home p {
-  margin-top: 40px;
+  margin-top: 24px;
   text-shadow: var(--text-shadow);
 }
 
 .home a {
-  margin-top: 100px;
+  margin-top: 60px;
+}
+
+.home h1::after {
+  content: '|';
+  opacity: 1;
+  display: inline-block;
+  margin-left: 5px;
+  animation: blink 1s infinite;
 }

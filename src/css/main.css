@@ -1,4 +1,5 @@
 /* Utilities */
+@import './utilities/animations.css';
 @import './utilities/root.css';
 @import './utilities/components.css';
 @import './utilities/typography.css';
