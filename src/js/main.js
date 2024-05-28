@@ -12,3 +12,6 @@ const projectsSlides = new Slides(
   '#projetos .projects-info[data-js=carousel-item]'
 )
 projectsSlides.init()
+
+const typewriter = new Typewriter('.home h1', '.home p')
+typewriter.init()
