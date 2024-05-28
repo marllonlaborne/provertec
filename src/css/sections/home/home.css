@@ -22,3 +22,11 @@
 .home a {
   margin-top: 60px;
 }
+
+.home h1::after {
+  content: '|';
+  opacity: 1;
+  display: inline-block;
+  margin-left: 5px;
+  animation: blink 1s infinite;
+}
