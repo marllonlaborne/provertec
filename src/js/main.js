@@ -1,5 +1,6 @@
 import Slides from './modules/slides.js'
 import Typewriter from './modules/typewriter.js'
+import SmoothScroll from './modules/smoothScroll.js'
 
 const slides = new Slides('#servicos .carousel-item', '#servicos [data-js=prev-button]', '#servicos [data-js=next-button]')
 slides.init()
@@ -15,3 +16,6 @@ projectsSlides.init()
 
 const typewriter = new Typewriter('.home h1', '.home p')
 typewriter.init()
+
+const sections = new SmoothScroll('.smooth-scroll') 
+sections.init()
