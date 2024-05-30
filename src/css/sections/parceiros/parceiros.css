@@ -1,5 +1,5 @@
 .partners-bg {
-  background-color: var(--primary);
+  background-color: var(--primary-color);
 }
 
 .partners-prover-logo {
@@ -20,13 +20,13 @@
 
 .partners h1 {
   margin: 60px 0 40px;
-  text-shadow: var(--text-shadowshadow);
+  text-shadow: var(--text-shadow);
 }
 
 .partners p {
   margin-bottom: 64px;
   text-align: center;
-  text-shadow: var(--text-shadowshadow);
+  text-shadow: var(--text-shadow);
 }
 
 .partners-carousel img {
@@ -35,7 +35,7 @@
 
 .partners-carousel-bg {
   width: 100%;
-  background-color: var(--white);
+  background-color: var(--color-0);
 }
 
 .partners-carousel {
