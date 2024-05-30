@@ -14,7 +14,7 @@
 
 .custom-button {
   z-index: 1;
-  background-color: #ff7f50;
+  background-color: var(--secondary-color);
   border: unset;
   position: relative;
   -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
@@ -43,8 +43,8 @@
 }
 
 .custom-button:hover {
-  background-color: var(--white);
-  color: var(--primary);
+  background-color: var(--color-0);
+  color: var(--primary-color);
 }
 
 .custom-button:hover::before {
