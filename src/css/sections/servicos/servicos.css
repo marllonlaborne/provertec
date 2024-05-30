@@ -43,6 +43,7 @@
 
 .carousel-item-visible {
   display: block;
+  animation: fadeVisibility 0.8s;
 }
 
 .carousel .carousel-item-hidden {
