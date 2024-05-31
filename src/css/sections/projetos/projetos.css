@@ -7,19 +7,34 @@
   background: top no-repeat url('../../../../assets/images/background/projects-meeting.jpg') var(--primary-color);
 }
 
-.projects h1 {
+.projects-container {
+  display: grid;
+  grid-template-columns: auto 760px 760px auto;
   width: 100%;
-  margin-bottom: 60px;
-  margin-left: 285px;
-  text-shadow: var(--text-shadow);
+  padding: 80px 0 120px 0;
+  margin-top: 120px;
 }
 
-.projects-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 120px;
+.projects-container [data-js="prev-button"] {
+  grid-area: 2;
+  grid-column: 2;
+  place-self: center;
+  justify-self: end;
+}
+
+.projects-container [data-js="next-button"] {
+  grid-area: 2;
+  grid-column: 4;
+  place-self: center;
+  justify-self: start;
+}
+
+.projects-container h1 {
   margin-bottom: 120px;
+  padding: 0;
+  text-shadow: var(--text-shadow);
+  text-align: center;
+  grid-column: 1 / -1;
 }
 
 .projects-home {
@@ -31,7 +46,7 @@
 .projects-home h1 {
   text-transform: uppercase;
   text-shadow: var(--text-shadow);
-  margin: 120px 0 0 0;
+  margin-top: 160px;
 }
 
 .projects-home p {
@@ -42,19 +57,6 @@
 .projects-home a {
   display: block;
   width: max-content;
-}
-
-.spacer {
-  aspect-ratio: 440/184;
-  width: 100%;
-  margin: 50px 0 -500px 0;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.layer {
-  background-image: url('../../../../assets/images/projetos/wave-haikei.svg');
 }
 
 [data-js="prev-button"] {
@@ -78,17 +80,20 @@
   flex-direction: column;
   justify-content: center;
   width: 530px;
+  grid-area: 2 / 2;
+  place-self: center;
 }
 
 .projects-info h2 {
-  margin-bottom: 16px;
+  margin-bottom: 80px;
   text-shadow: var(--text-shadow);
 }
 
 .projects-desc {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  justify-content: center;
+  margin-bottom: 100px;
   gap: 20px;
   text-shadow: var(--text-shadow);
 }
@@ -108,15 +113,21 @@
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
+.projects-preview {
+  display: flex;
+  grid-area: 2 / 3;
+  place-self: center;
+  align-items: center;
+}
+
 .projects-preview ul {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  gap: 5px;
 }
 
 .projects-preview img {
-  margin-top: 50px;
-  height: 430px;
+  height: 450px;
 }
 
 .carousel-item-visible {
