@@ -50,3 +50,8 @@
 .custom-button:hover::before {
   width: 100%;
 }
+
+.custom-arrow:hover {
+  background-color: var(--primary-color-hover);
+  transition: all .2s ease-in;
+}
