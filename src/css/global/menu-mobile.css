@@ -1,8 +1,9 @@
 .mobile-button {
+  line-height: 14px;
   display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .header-logo {
     width: 200px;
   }
