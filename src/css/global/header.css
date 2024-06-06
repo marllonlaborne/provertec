@@ -63,3 +63,20 @@
 .icones-sociais:hover {
   filter: invert(62%) sepia(38%) saturate(1000%) hue-rotate(325deg) brightness(102%) contrast(106%);
 }
+
+@media (max-width: 1000px) {
+  .header-logo {
+    width: 150px;
+  }
+  .header-menu {
+    font-size: .9rem;
+    gap: 25px;
+  }
+  .header-menu a:hover::after {
+    width: 0%;
+  }
+  .icones-sociais {
+    width: 25px;
+    height: 25px;
+  }
+}
