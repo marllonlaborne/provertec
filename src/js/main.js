@@ -1,6 +1,7 @@
 import Slides from './modules/slides.js'
 import Typewriter from './modules/typewriter.js'
 import SmoothScroll from './modules/smoothScroll.js'
+import menuMobile from './modules/menuMobile.js'
 
 const slides = new Slides('#servicos .carousel-item', '#servicos [data-js=prev-button]', '#servicos [data-js=next-button]')
 slides.init()
@@ -19,3 +20,6 @@ typewriter.init()
 
 const sections = new SmoothScroll('.smooth-scroll') 
 sections.init()
+
+const menuMob = new menuMobile('.mobile-button', '.header-menu')
+menuMob.init()
