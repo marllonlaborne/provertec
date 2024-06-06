@@ -21,5 +21,5 @@ typewriter.init()
 const sections = new SmoothScroll('.smooth-scroll') 
 sections.init()
 
-const menuMob = new menuMobile('.mobile-button', '.header-menu')
+const menuMob = new menuMobile('.mobile-button', '.header-menu', '.header-nav')
 menuMob.init()

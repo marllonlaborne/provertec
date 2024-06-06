@@ -3,10 +3,6 @@
 }
 
 @media (max-width: 600px) {
-  .mobile-button {
-    display: block;
-    margin-right: 2.2rem;
-  }
   .header-logo {
     width: 200px;
   }
@@ -29,6 +25,7 @@
   .header-menu.active {
     height: calc(100vh - 112px);
     visibility: visible;
+    overflow-y: auto;
   }
   .header-menu a:hover::after {
     width: 0%;
@@ -37,5 +34,41 @@
     padding: 1rem 0;
     margin: 0 2.2rem;
     border-bottom: 2px solid rgba(0, 0, 0, .05);
+  }
+  .mobile-button {
+    display: flex;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    margin-right: 2.2rem;
+    cursor: pointer;
+    gap: .5rem;
+  }
+  .mobile-menu {
+    display: block;
+    border-top: 2px solid;
+    width: 20px;
+  }
+  .mobile-menu::before, 
+  .mobile-menu::after {
+    width: 20px;
+    height: 2px;
+    background-color: currentColor;
+    display: block;
+    content: '';
+    margin-top: 5px;
+    transition: .3s;
+    position: relative;
+  }
+  .header-nav.active .mobile-menu {
+    border-top-color: transparent;
+  }
+  .header-nav.active .mobile-menu::before {
+    transform: rotate(135deg);
+  }
+  .header-nav.active .mobile-menu::after {
+    transform: rotate(-135deg);
+    top: -7px;
   }
 }
