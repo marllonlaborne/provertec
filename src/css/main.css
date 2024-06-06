@@ -17,6 +17,7 @@
 @import './global/header.css';
 @import './global/global.css';
 @import './global/footer.css';
+@import './global/menu-mobile.css';
 
 /* Pages */
 @import './sections/policy-privacy/policy-privacy.css';

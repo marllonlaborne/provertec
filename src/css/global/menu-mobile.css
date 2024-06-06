@@ -1,0 +1,41 @@
+.mobile-button {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .mobile-button {
+    display: block;
+    margin-right: 2.2rem;
+  }
+  .header-logo {
+    width: 200px;
+  }
+  .header-menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 112px;
+    right: 0px;
+    height: 0px;
+    background: var(--color-0);
+    z-index: 1000;
+    transition: .6s;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  .header-sociais {
+    display: none;
+  }
+  .header-menu.active {
+    height: calc(100vh - 112px);
+    visibility: visible;
+  }
+  .header-menu a:hover::after {
+    width: 0%;
+  }
+  .header-menu li {
+    padding: 1rem 0;
+    margin: 0 2.2rem;
+    border-bottom: 2px solid rgba(0, 0, 0, .05);
+  }
+}
