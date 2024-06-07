@@ -86,3 +86,50 @@
   right: -560px;
 }
 
+@media (max-width: 700px) {
+  #servicos {
+    height: 1250px;
+  }
+  .servicos-container {
+    flex-direction: column;
+  }
+  .servicos-desc {
+    margin: 100px 0 70px 0;
+    width: 580px;
+  }
+  .servicos-desc h1 {
+    font-size: 2.1rem;
+  }
+  .servicos-desc p {
+    font-size: 1.1rem;
+  }
+  .servicos-carousel,
+  .carousel h2 {
+    margin: 0;
+  }
+  .setas-nav,
+  .carousel-item img {
+    display: none;
+  }
+  .carousel-item p {
+    margin-top: 20px;
+  }
+  .carousel .carousel-item {
+    align-items: start;
+    margin-bottom: 50px;
+  }
+  .carousel .carousel-item-hidden {
+    display: block;
+  }
+  .carousel-item h1,
+  .carousel-item p {
+    text-align: left;
+  }
+  .carousel-item h2::before {
+    content: '';
+    width: 30px;
+    height: 8px;
+    display: block;
+    background-color: var(--secondary-color);
+  }
+}
