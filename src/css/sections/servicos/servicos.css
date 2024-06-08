@@ -86,15 +86,63 @@
   right: -560px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   #servicos {
-    height: 1250px;
+    height: 1850px;
   }
   .servicos-container {
     flex-direction: column;
   }
   .servicos-desc {
     margin: 100px 0 70px 0;
+    width: 800px;
+  }
+  .servicos-desc h1 {
+    font-size: 2.3rem;
+  }
+  .servicos-desc p {
+    font-size: 1.1rem;
+  }
+  .servicos-carousel {
+    margin: 0;
+  }
+  .carousel-item img {
+    width: 200px;
+  }
+  .setas-nav img {
+    display: none;
+  }
+  .carousel .carousel-item {
+    align-items: start;
+    margin-bottom: 50px;
+  }
+  .carousel .carousel-item-hidden {
+    display: block;
+  }
+  .carousel-item h2,
+  .carousel-item p {
+    text-align: left;
+    margin-top: 10px;
+  }
+  .carousel-item h2::before {
+    content: '';
+    width: 30px;
+    height: 8px;
+    margin-top: 50px;
+    display: block;
+    background-color: var(--secondary-color);
+  }
+}
+
+@media (max-width: 850px) {
+  #servicos {
+    height: 1120px;
+  }
+  .servicos-container {
+    flex-direction: column;
+  }
+  .servicos-desc {
+    margin: 100px 0 10px 0;
     width: 580px;
   }
   .servicos-desc h1 {
@@ -121,7 +169,13 @@
   .carousel .carousel-item-hidden {
     display: block;
   }
-  .carousel-item h1,
+  .carousel-item h2 {
+    font-size: 1.6rem;
+  }
+  .carousel-item p {
+    font-size: 1rem;
+  }
+  .carousel-item h2,
   .carousel-item p {
     text-align: left;
   }
