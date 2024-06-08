@@ -6,7 +6,7 @@
 .servicos-desc,
 .servicos-carousel {
   margin-top: 200px;
-  width: 800px;
+  width: 90%;
 }
 
 .servicos-carousel {
@@ -136,14 +136,14 @@
 
 @media (max-width: 850px) {
   #servicos {
-    height: 1120px;
+    height: 1200px;
   }
   .servicos-container {
     flex-direction: column;
   }
   .servicos-desc {
     margin: 100px 0 10px 0;
-    width: 580px;
+    width: 90%;
   }
   .servicos-desc h1 {
     font-size: 2.1rem;
