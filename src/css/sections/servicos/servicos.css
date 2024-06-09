@@ -136,7 +136,7 @@
 
 @media (max-width: 850px) {
   #servicos {
-    height: 1200px;
+    height: 1110px;
   }
   .servicos-container {
     flex-direction: column;
