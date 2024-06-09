@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  background: top no-repeat url('../../../../assets/images/background/projects-meeting.jpg') var(--primary-color);
+  background: top no-repeat url('../../../../assets/images/background/projects-meeting.jpg');
 }
 
 .projects-container {
@@ -12,7 +12,7 @@
   grid-template-columns: auto 760px 760px auto;
   width: 100%;
   padding: 80px 0 120px 0;
-  margin-top: 120px;
+  margin-top: 240px;
 }
 
 .projects-container [data-js="prev-button"] {
@@ -136,4 +136,31 @@
 
 .carousel-item-hidden {
   display: none;
+}
+
+@media (max-width: 1000px) {
+  .projects-container {
+    margin-top: 100px;
+  }
+  .projects-home h1 {
+    font-size: 2.2rem;
+    margin-top: 100px;
+  }
+  .projects-home p, 
+  .projects-home a {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .projects-container {
+    margin-top: 80px;
+  }
+  .projects-home h1 {
+    font-size: 2rem;
+  }
+  .projects-home p, 
+  .projects-home a {
+    font-size: 1.1rem;
+  }
 }
