@@ -137,3 +137,30 @@
 .carousel-item-hidden {
   display: none;
 }
+
+@media (max-width: 1000px) {
+  .projects-container {
+    margin-top: 100px;
+  }
+  .projects-home h1 {
+    font-size: 2.2rem;
+    margin-top: 100px;
+  }
+  .projects-home p, 
+  .projects-home a {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .projects-container {
+    margin-top: 80px;
+  }
+  .projects-home h1 {
+    font-size: 2rem;
+  }
+  .projects-home p, 
+  .projects-home a {
+    font-size: 1.1rem;
+  }
+}
