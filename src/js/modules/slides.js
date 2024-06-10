@@ -66,6 +66,28 @@ export default class Slides {
     })
   }
 
+  startAutoSlide() {
+    const slideIntervalTime = 6000
+    this.autoSlideInterval = setInterval(() => {
+      this.currentSlideIndex = (this.currentSlideIndex + 1) % this.slides.length
+      this.updateSlideClasses()
+    }, slideIntervalTime)
+  }
+
+  stopAutoSlide() {
+    clearInterval(this.autoSlideInterval)
+  }
+
+  handleAutoSlide() {
+    const handleResize = () => {
+      if (!window.innerWidth <= 1000) this.stopAutoSlide()
+      this.startAutoSlide()
+    }
+
+    handleResize()
+    window.addEventListener('resize', handleResize)
+  }
+
   init() {
     if (this.slides.length && this.prevButton && this.nextButton) {
       this.updateSlideClasses()
