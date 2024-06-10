@@ -8,6 +8,7 @@ export default class Slides {
 
     this.projectPreviews = projectPreview ? document.querySelectorAll(projectPreview) : null
     this.projectInfos = projectInfo ? document.querySelectorAll(projectInfo) : null
+    this.autoSlideInterval = null
 
     this.hiddenItem = 'carousel-item-hidden'
     this.visibleItem = 'carousel-item-visible'
