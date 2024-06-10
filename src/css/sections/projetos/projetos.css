@@ -197,6 +197,10 @@
   .projects-container {
     margin-top: 80px;
   }
+  .projects-container [data-js="prev-button"],
+  .projects-container [data-js="next-button"] {
+    display: none;
+  }
   .projects-home h1 {
     font-size: 2rem;
   }
