@@ -208,4 +208,19 @@
   .projects-home a {
     font-size: 1.1rem;
   }
+  .projects-desc li {
+    font-size: .875rem;
+  }
+  .projects-desc .icons {
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+  }
+  .projects-preview {
+    margin-left: 150px;
+  }
+  .projects-preview ul li img {
+    width: 150px;
+    height: auto;
+  }
 }
