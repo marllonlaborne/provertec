@@ -8,6 +8,7 @@ export default class Slides {
 
     this.projectPreviews = projectPreview ? document.querySelectorAll(projectPreview) : null
     this.projectInfos = projectInfo ? document.querySelectorAll(projectInfo) : null
+    this.autoSlideInterval = null
 
     this.hiddenItem = 'carousel-item-hidden'
     this.visibleItem = 'carousel-item-visible'
@@ -65,11 +66,34 @@ export default class Slides {
     })
   }
 
+  startAutoSlide() {
+    const slideIntervalTime = 6000
+    this.autoSlideInterval = setInterval(() => {
+      this.currentSlideIndex = (this.currentSlideIndex + 1) % this.slides.length
+      this.updateSlideClasses()
+    }, slideIntervalTime)
+  }
+
+  stopAutoSlide() {
+    clearInterval(this.autoSlideInterval)
+  }
+
+  handleAutoSlide() {
+    const handleResize = () => {
+      if (!window.innerWidth <= 1000) this.stopAutoSlide()
+      this.startAutoSlide()
+    }
+
+    handleResize()
+    window.addEventListener('resize', handleResize)
+  }
+
   init() {
     if (this.slides.length && this.prevButton && this.nextButton) {
       this.updateSlideClasses()
       this.handlePrevButtonClick()
       this.handleNextButtonClick()
+      this.handleAutoSlide()
     }
 
     return this
