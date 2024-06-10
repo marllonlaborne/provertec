@@ -93,6 +93,7 @@ export default class Slides {
       this.updateSlideClasses()
       this.handlePrevButtonClick()
       this.handleNextButtonClick()
+      this.handleAutoSlide()
     }
 
     return this
