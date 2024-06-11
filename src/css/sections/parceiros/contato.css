@@ -24,3 +24,38 @@
 .contact-meeting p {
   margin: 30px 0 40px 0;
 }
+
+@media (max-width: 850px) {
+  .contact-meeting {
+    width: 90%;
+    height: auto;
+  }
+  .contact-meeting h1 {
+    font-size: 1.6rem;
+  }
+  .contact-meeting p {
+    font-size: 1rem;
+  }
+  .contact-meeting a {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 375px) {
+  .contact-meeting {
+    width: 90%;
+    height: auto;
+  }
+  .contact-meeting h1 {
+    font-size: 1.1rem;
+  }
+  .contact-meeting p {
+    font-size: .875rem;
+  }
+  .contact-meeting a {
+    font-size: .875rem;
+    font-weight: 500;
+    padding: 14px 25px;
+  }
+}
