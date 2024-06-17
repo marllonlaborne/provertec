@@ -54,3 +54,7 @@
 .footer-rights p:last-child {
   text-transform: uppercase;
 }
+
+@media (max-width: 375px) {
+  
+}
