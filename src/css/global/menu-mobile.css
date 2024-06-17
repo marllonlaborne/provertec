@@ -3,6 +3,22 @@
   display: none;
 }
 
+@media (max-width: 375px) {
+  .header .header-logo {
+    width: 150px;
+  }
+  .header-menu {
+    font-size: .9rem;
+    gap: 25px;
+  }
+  .header-nav .mobile-button {
+    font-size: .875rem;
+  }
+  .header-menu a:hover::after {
+    width: 0%;
+  }
+}
+
 @media (max-width: 750px) {
   .header-logo {
     width: 200px;
@@ -45,6 +61,7 @@
     margin-right: 2.2rem;
     cursor: pointer;
     gap: .5rem;
+    color: var(--primary-color);
   }
   .mobile-menu {
     display: block;
