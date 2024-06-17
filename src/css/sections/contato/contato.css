@@ -63,3 +63,34 @@
   height: 55px;
   padding: 13px;
 }
+
+@media (max-width: 375px) {
+  .contact {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  .contact-info h1 {
+    font-size: 1.5rem;
+  }
+  .contact-info p {
+    font-size: .875rem;
+  }
+  .contact-info .button {
+    font-size: .875rem;
+    padding: 15px 8px;
+    margin-top: 45px;
+    width: 70%;
+  }
+  .contact-location .location-map {
+    display: none;
+  }
+  .information :where(span, address) {
+    font-size: .875rem;
+  }
+  .information .icons {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+  }
+}
