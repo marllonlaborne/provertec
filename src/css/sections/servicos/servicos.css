@@ -187,3 +187,16 @@
     background-color: var(--secondary-color);
   }
 }
+
+@media (max-width: 375px) {
+  #servicos {
+    height: 1650px;
+  }
+  .servicos-desc h1,
+  .carousel .carousel-item h2 {
+    font-size: 1.4rem;
+  }
+  .servicos-desc p {
+    font-size: .875rem;
+  }
+}
