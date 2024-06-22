@@ -3,6 +3,8 @@ export default class SmoothScroll {
     this.sections = document.querySelectorAll(sections)
     this.halfWindow = window.innerHeight * 0.6
     this.activeClass = 'active'
+    this.smoothScrollClass = 'smooth-scroll'
+    this.mobileMaxWidth = 375
 
     this.checkDistance = this.checkDistance.bind(this)
   }
@@ -19,7 +21,10 @@ export default class SmoothScroll {
 
   checkDistance() {
     this.distance.forEach((item) => {
-      if (window.scrollY > item.offset) {
+      if (window.outerWidth <= this.mobileMaxWidth) {
+        item.element.classList.remove(this.activeClass)
+        item.element.classList.remove(this.smoothScrollClass)
+      } else if (window.scrollY > item.offset) {
         item.element.classList.add(this.activeClass)
       } else if (item.element.classList.contains(this.activeClass)) {
         item.element.classList.remove(this.activeClass)
